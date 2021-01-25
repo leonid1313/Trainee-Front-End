@@ -1,0 +1,54 @@
+@font-face{
+    font-family: 'Franklin Gothic Medium';
+    src: url(framd.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #141b23;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.65);
+    color: #ffffff;
+    font-weight: 500;
+    margin: 0;
+    background-image: url('123.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.link{
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #8d96a5;
+    margin-right: 15px ;
+}
+.size{
+    font-size: 17;
+    line-height: 20;
+    margin-right: 25px;
+}
+.nav{
+    margin-top: 65px;
+    margin-left: 55px;
+}
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 71px;
+    margin-left: 96px;
+}
+.text{
+    width: 467px;
+    font-size: 13px;
+    line-height: 15.6px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+.div{
+    font-size: 12px;
+    line-height: 14.4px;
+    color: #3d4249;
+    margin-top: 198px;
+    margin-left: 54px;
+}

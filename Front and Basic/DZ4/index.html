@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://fom.in.ua/echo">
+       <button disabled>Тип кузова</button>
+       <p><input type="checkbox" name="Кузов" value="Джип" id="Д">
+       <label for="Д">Джип</label></p>
+       <p><input type="checkbox" name="Кузов" value="Хетчбек" id="Х">
+       <label for="Х">Хетчбек</label></p>
+       <p><input type="checkbox" name="Кузов" value="Пикап" id="П">
+       <label for="П">Пикап</label></p>
+       <select  name="Марка авто"  >
+            <option value="Не выбрана">Марка авто</option>
+            <option value="BMW">BMW</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Bugatti">Bugatti</option>
+        </select>
+        <p><button disabled>Цена</button></p>
+        <p><input type="number" name="Цена От" placeholder="От" ></p>
+        <p><input type="number" name="Цена До" placeholder="До" ></p>
+        <p><button disabled>Год выпуска</button></p>
+        <select  name="Год выпуска"  >
+            <option value="Не выбрана" >От</option>
+            <option value="от 2017">2017</option>
+            <option value="от 2018">2018</option>
+            <option value="от 2019">2019</option>
+        </select>
+        <select  name="Год выпуска"  >
+            <option value="Не выбрана" >До</option>
+            <option value="до 2017">2017</option>
+            <option value="до 2018">2018</option>
+            <option value="до 2019">2019</option>
+        </select>
+        <p><button disabled>Состояние авто</button></p>
+        <p><input type="checkbox" name="Состояние авто" value="Новый" id="Н">
+        <label for="Н">Новый</label></p>
+        <p><input type="checkbox" name="Состояние авто" value="Битый" id="Б">
+        <label for="Б">Битый</label></p>
+        <p><input type="checkbox" name="Состояние авто" value="Не растаможен" id="Не">
+        <label for="Не">Не растаможен</label></p>
+        <button disabled>Тип топлива</button>
+        <p><input type="checkbox" name="Топливо" value="Газ" id="Г">
+        <label for="Г">Газ</label></p>
+        <p><input type="checkbox" name="Топливо" value="Бензин" id="Бе">
+        <label for="Бе">Бензин</label></p>
+        <p><input type="checkbox" name="Топливо" value="Электро" id="Э">
+        <label for="Э">Электро</label></p>
+        <button disabled>Тип Коробки передач</button>
+        <p><input type="radio" id="авт" name="Тип коробки" value="Автомат">
+        <label for="авт">Автомат</label></p>
+        <p><input type="radio" id="мех" name="Тип коробки" value="Механика">
+        <label for="мех">Механика</label></p>
+        <select  name="Цвет"  >
+            <option value="Не выбрана">Цвет</option>
+            <option value="Белый">Белый</option>
+            <option value="Чёрный">Чёрный</option>
+            <option value="Красный">Красный</option>
+        </select>
+       <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>

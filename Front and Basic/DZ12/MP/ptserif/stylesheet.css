@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PT Serif';
+    src: url('subset-PTSerif-BoldItalic.eot');
+    src: url('subset-PTSerif-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('subset-PTSerif-BoldItalic.woff2') format('woff2'),
+        url('subset-PTSerif-BoldItalic.woff') format('woff'),
+        url('subset-PTSerif-BoldItalic.ttf') format('truetype'),
+        url('subset-PTSerif-BoldItalic.svg#PTSerif-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+

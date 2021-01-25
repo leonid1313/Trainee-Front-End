@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Couture';
+    src: url('subset-Couture-Bold.eot');
+    src: url('subset-Couture-Bold.eot?#iefix') format('embedded-opentype'),
+        url('subset-Couture-Bold.woff2') format('woff2'),
+        url('subset-Couture-Bold.woff') format('woff'),
+        url('subset-Couture-Bold.ttf') format('truetype'),
+        url('subset-Couture-Bold.svg#Couture-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

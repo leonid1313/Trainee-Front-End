@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+.topmenu:hover {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+}
+.topmenu {
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+}
+.topmenu > li:last-child {
+    margin-right: 0;
+  }
+.a {
+  display: block;
+  text-decoration: none;
+}
+.submenu {
+  position: absolute;
+  z-index: 1; 
+  list-style: none;
+  padding: 0px;
+  width: 100px;
+}
+.one .topmenu {
+  background: red;
+}
+.one .topmenu .a {
+  color: white;
+}
+.one .submenu {
+  display: none;
+  background: red;
+}   
+.one .topmenu .item:hover .submenu {
+  display: block;
+}
+.submenu .link {
+    list-style: none; 
+    text-decoration: none;
+    color: white;
+}
+.er:hover {
+    background-color: #000000;
+}
